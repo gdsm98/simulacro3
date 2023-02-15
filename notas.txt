@@ -1,0 +1,15 @@
+NOM ASSIG NOTA
+1Pepe SOR 4
+2Antonio FOL 5
+3Ana SOR 8
+4Pepe SEG 9
+5Antonio WEB 8
+6Ana SEG 4
+7Antonio SEG 7
+
+#!/bin/bash
+
+# contar el número de matrículas en el archivo
+num_matriculas=$(wc -l < archivo.txt)
+
+echo "Hay $num_matriculas matrículas en el archivo."
